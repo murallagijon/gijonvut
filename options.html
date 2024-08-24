@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opciones</title>
+    <link rel="stylesheet" href="options-styles.css">
+</head>
+<body>
+    <div class="options-grid">
+        <button class="option" id="welcome" onclick="openPage('welcome.html')">
+            <img src="icons/welcome.png" alt="Bienvenida">
+            Bienvenida
+        </button>
+        <button class="option" id="checkin" onclick="openPage('checkin.html')">
+            <img src="icons/checkin.png" alt="Checkin">
+            Instrucciones para checkin
+        </button>
+        <button class="option" id="info" onclick="openPage('info.html')">
+            <img src="icons/info.png" alt="Información y manuales">
+            Información y manuales
+        </button>
+        <button class="option" id="wifi" onclick="openPage('wifi.html')">
+            <img src="icons/wifi.png" alt="Wifi">
+            Wifi
+        </button>
+        <button class="option" id="checkout" onclick="openPage('checkout.html')">
+            <img src="icons/checkout.png" alt="Antes del check-out">
+            Antes del check-out
+        </button>
+        <button class="option" id="rebook" onclick="openPage('rebook.html')">
+            <img src="icons/rebook.png" alt="Volver a reservar">
+            Volver a reservar
+        </button>
+        <button class="option" id="tourist-recommendations" onclick="openPage('tourist-recommendations.html')">
+            <img src="icons/tourist.png" alt="Recomendaciones">
+            Recomendaciones turísticas
+        </button>
+        <button class="option" id="suggestions" onclick="openPage('suggestions.html')">
+            <img src="icons/suggestions.png" alt="Buzón de sugerencias">
+            Buzón de sugerencias
+        </button>
+    </div>
+    <button class="back-button" onclick="openPage('index.html')">
+        <img src="icons/back.png" alt="Volver">
+    </button>
+    <script>
+        function openPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

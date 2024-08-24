@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <link rel="stylesheet" href="welcome-styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Bienvenida</h1>
+        <p class="intro">
+            Nuestra vivienda turística se encuentra en la Calle la Muralla, en el corazón de Gijón. Situada cerca de la playa de San Lorenzo, es el lugar perfecto para disfrutar de la ciudad y sus alrededores. 
+            <br><br>
+            Para llegar a Gijón desde el aeropuerto, puedes tomar un taxi o un autobús directo. La estación de tren se encuentra a 1.5 km y la estación de autobuses a 1 km de la vivienda.
+        </p>
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=43.5409369500026,-5.65908099998938&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7Clabel:C%7C43.5409369500026,-5.65908099998938" alt="Ubicación en Google Maps">
+        
+        <h2>Sobre la vivienda</h2>
+        <p class="details">
+            La vivienda es nueva, cuenta con 3 habitaciones y está adaptada para personas con movilidad reducida. Mejores calidades en construcción, suelo radiante y habitaciones muy amplias.
+        </p>
+        
+        <h2>Opciones para aparcar</h2>
+        <p class="parking">
+            <strong>Parking Zarracina:</strong> Calle Conde del Real Agrado, 3, 33205 Gijón. Teléfono: +34 985 08 59 52.
+            <br><br>
+            <strong>Parking San Agustín:</strong> Plaza de San Agustín, 33202 Gijón. Teléfono: +34 985 34 56 78.
+        </p>
+    </div>
+    <button class="back-button" onclick="openPage('options.html')">
+        <img src="icons/back.png" alt="Volver">
+        Volver
+    </button>
+    <script>
+        function openPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
