@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-    background-color: #ffffff;
+    background-color: #B4CFD5;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -47,3 +47,4 @@ body {
 .back-button:hover {
     background-color: #45a049;
 }
+
