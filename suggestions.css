@@ -27,6 +27,11 @@ h1 {
     text-align: center;
 }
 
+.manuals {
+    list-style-type: none;
+    padding: 0;
+}
+
 .instructions {
     text-indent: 20px;
 }
@@ -71,4 +76,5 @@ h1 {
 .back-button:hover {
     background-color: #45a049;
 }
+
 
